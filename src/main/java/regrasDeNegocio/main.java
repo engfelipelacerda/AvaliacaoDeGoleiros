@@ -36,15 +36,15 @@ public class main {
 		System.out.println("\n\n");
 
 		// 1*
-		System.out.println("Média de chutes pegos pelos goleiros do " + brazil.getNomeDaSelecao() + ": "
+		System.out.println("MÃ©dia de chutes pegos pelos goleiros do " + brazil.getNomeDaSelecao() + ": "
 				+ brazil.mediaDeChutesPegos());
-		System.out.println("Média de chutes para fora nos goleiros do " + brazil.getNomeDaSelecao() + ": "
+		System.out.println("MÃ©dia de chutes para fora nos goleiros do " + brazil.getNomeDaSelecao() + ": "
 				+ brazil.mediaDeChutesParaFora());
-		System.out.println("Média de chutes na trave nos goleiros do " + brazil.getNomeDaSelecao() + ": "
+		System.out.println("MÃ©dia de chutes na trave nos goleiros do " + brazil.getNomeDaSelecao() + ": "
 				+ brazil.mediaDeChutesNaTrave());
 
 		// 3*
-		System.out.println("Média de gols tomados pelos goleiros do " + brazil.getNomeDaSelecao() + ": "
+		System.out.println("MÃ©dia de gols tomados pelos goleiros do " + brazil.getNomeDaSelecao() + ": "
 				+ brazil.mediaDeGolsTomados());
 
 		// 2*
@@ -53,11 +53,11 @@ public class main {
 		// 8*
 		System.out.println(brazil);
 
-		System.out.println("Tamanho da área de atuação: " + alisson.getAAG());
+		System.out.println("Tamanho da Ã¡rea de atuaÃ§Ã£o: " + alisson.getAAG());
 		System.out.println("Quadrante: " + cobranca.getChute().getQuadrante());
 		System.out
-				.println("Posição do chute X - Y: " + chute.getPosicaoDoChuteX() + " - " + chute.getPosicaoDoChuteY());
-		System.out.println("Posição inicial área atuação X - Y: " + cobranca.getPosicaoDaAreaDeAtuacaoX() + " - "
+				.println("PosiÃ§Ã£o do chute X - Y: " + chute.getPosicaoDoChuteX() + " - " + chute.getPosicaoDoChuteY());
+		System.out.println("PosiÃ§Ã£o inicial Ã¡rea atuaÃ§Ã£o X - Y: " + cobranca.getPosicaoDaAreaDeAtuacaoX() + " - "
 				+ cobranca.getPosicaoDaAreaDeAtuacaoY());
 		System.out.println("Resultado: " + cobranca.ResultadoDoChute());
 		System.out.println("\n\n");
